@@ -1,4 +1,4 @@
-##Lab assignments for ECE568. 
+##Lab assignments for ECE568
 
 For more info, read explanations text file which are under every lab directory.
 
