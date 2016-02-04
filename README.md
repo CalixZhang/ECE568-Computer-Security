@@ -1,4 +1,6 @@
-##Lab assignments for ECE568. For more info, read explanations text file which are under every lab directory.
+##Lab assignments for ECE568. 
+
+For more info, read explanations text file which are under every lab directory.
 
 ###Lab 1 - Buffer Overflows, with bonus parts in Format Strings and Double Free Attacks
 - Finished parts 1-4 which are about buffer overflows and 100% of marks
