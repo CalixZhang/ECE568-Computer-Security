@@ -11,3 +11,5 @@ The objective of these labs was to craft a buffer overflow attack to change the 
 - Have my notes which have diagrams of stack, heap, addresses, attack buffers and offsets from each other
 - To run, compile the sploit and its corresponding target in the targets folder, and just do ./sploit(which part)
 
+## Lab 2
+Use openssl to secure	the	communication	channel	between	the	client	and	the	server. The	client	and	server	will	send messages	over	the	encrypted	channel	that is	set	up	with	SSL.
