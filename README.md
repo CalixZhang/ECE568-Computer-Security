@@ -9,5 +9,5 @@ The objective of these labs was to craft a buffer overflow attack to change the 
 - Finished parts 1-4 about buffer overflows
 - Finished part 6 about double free attack
 - Have my notes which have diagrams of stack, heap, addresses, attack buffers and offsets from each other
-- To run each of the spolits, just do ./sploit(which part)
+- To run, compile the sploit and its corresponding target in the targets folder, and just do ./sploit(which part)
 
