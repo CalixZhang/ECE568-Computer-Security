@@ -1,8 +1,3 @@
-
-
-#Shafaaf Khaled Hossain, 998891515, shafaaf.hossain@mail.utoronto.ca
-#Ismail Hossain, 998340175, ridoy.hossain@mail.utoronto.ca
-
 Sploit 1
 We determined where the return address of lab_main() is located on the stack. We then proceeded to create an attack buffer where the first 45 bytes of the attack buffer contain the shellcode, and the last 4 bytes containing the value of the return address we want. This return address value is the start of the attack buffer. strcpy() causes buf to overflow due to the size of the attack buffer and the return address on the stack frame is replaced by the address of the shell code.
 
