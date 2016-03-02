@@ -12,6 +12,6 @@ The objective of these labs was to craft a buffer overflow attack to change the 
 - To run, compile the sploit and its corresponding target in the targets folder, and just do ./sploit(which part)
 
 ## Lab 2
-Use openssl to secure	the	communication	channel	between	the	client	and	the	server. The	client	and	server	will	send messages	over	the	encrypted	channel	that is	set	up	with	SSL.
+Used openssl to secure	the	communication	channel	between	the	client	and	the	server. The	client	and	server	will	send messages	over	the	encrypted	channel	that is	set	up	with	SSL.
 - To run the server compile it and enter: ./server (port)
 - To run the client compile it and enter: ./client (host) (port)
