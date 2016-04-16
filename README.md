@@ -24,3 +24,9 @@ Part 2 is to validate the HOTP and TOTP values entered by the user are correct o
 For example, $ ./generateQRcode ECE568 gibson 12345678901234567890. Then scan the barcode using the Google Authenticator app.
 - To validate the codes, enter ./validateQRcode "Secret in hex" "HOTP passcode" "TOTP passcode"
 For example, ./validateQRcode 12345678901234567890 803282 134318
+
+## Lab 4
+Download webgoat.jar under lab4, and run using:
+java -jar webgoat.jar -httpPort 8090
+
+Then do the exercises in the lab4 handout.
