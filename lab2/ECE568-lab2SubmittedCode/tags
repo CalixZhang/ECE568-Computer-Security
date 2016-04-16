@@ -1,0 +1,53 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BUFSIZE	sslfunctions.h	24;"	d
+CA_LIST	sslfunctions.h	20;"	d
+CC	Makefile	/^CC := gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS := -Wall$/;"	m
+CLIENTKEYFILE	client.c	59;"	d	file:
+CLIENTPASSWORD	client.c	60;"	d	file:
+CN_SERVER	client.c	57;"	d	file:
+EMAIL	client.c	58;"	d	file:
+FMT_ACCEPT_ERR	server.c	18;"	d	file:
+FMT_CLIENT_INFO	server.c	19;"	d	file:
+FMT_CN_MISMATCH	client.c	45;"	d	file:
+FMT_CONNECT_ERR	client.c	42;"	d	file:
+FMT_EMAIL_MISMATCH	client.c	46;"	d	file:
+FMT_INCOMPLETE_CLOSE	server.c	21;"	d	file:
+FMT_INCORRECT_CLOSE	client.c	48;"	d	file:
+FMT_NO_VERIFY	client.c	47;"	d	file:
+FMT_OUTPUT	client.c	44;"	d	file:
+FMT_OUTPUT	server.c	20;"	d	file:
+FMT_SERVER_INFO	client.c	43;"	d	file:
+HOST	client.c	38;"	d	file:
+HOST	sslfunctions.h	21;"	d
+LDFLAGS	Makefile	/^LDFLAGS := $(LIBS)$/;"	m
+LIBS	Makefile	/^LIBS := -lssl -lcrypto$/;"	m
+PORT	client.c	39;"	d	file:
+PORT	server.c	15;"	d	file:
+PORT	sslfunctions.h	23;"	d
+RM	Makefile	/^RM := rm -f$/;"	m
+SERVERKEYFILE	server.c	30;"	d	file:
+SERVERPASSWORD	server.c	31;"	d	file:
+_sslfunctions_h	sslfunctions.h	2;"	d
+berr_exit	sslfunctions.c	/^int berr_exit(string)$/;"	f
+bio_err	sslfunctions.c	/^BIO *bio_err = 0;$/;"	v
+check_certificate	client.c	/^int check_certificate(SSL *ssl){$/;"	f
+destroy_ctx	sslfunctions.c	/^ void destroy_ctx(ctx)$/;"	f
+err_exit	sslfunctions.c	/^int err_exit(string)$/;"	f
+initialize_ctx	sslfunctions.c	/^SSL_CTX *initialize_ctx(keyfile,password)$/;"	f
+main	client.c	/^int main(int argc, char **argv)$/;"	f
+main	server.c	/^int main(int argc, char **argv)$/;"	f
+pass	sslfunctions.c	/^static char *pass;$/;"	v	file:
+password_cb	sslfunctions.c	/^static int password_cb(char *buf,int num,$/;"	f	file:
+print_client_certification	server.c	/^void print_client_certification(ssl)$/;"	f
+read_write_client	client.c	/^void read_write_client(SSL *ssl, char * secret){$/;"	f
+read_write_server	server.c	/^void read_write_server(SSL *ssl, int s){$/;"	f
+setup_tcp	server.c	/^int setup_tcp(int port){$/;"	f
+sources	Makefile	/^sources := client.c server.c sslfunctions.c$/;"	m
+targets	Makefile	/^targets := client server $/;"	m
+tcp_connect	client.c	/^int tcp_connect(char* host, int port){$/;"	f

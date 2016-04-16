@@ -1,0 +1,9 @@
+Shafaaf Hossain, 998891515, shafaaf.hossain@mail.utoronto.ca
+Ismail Hossain, 998340175, ridoy.hossain@mail.utoronto.ca
+
+
+Part 1:
+The generateQRcode uses the ISSUER, ACCOUNTNAME and SECRET to generate a link and QR code based on the specifications provided
+
+Part 2:
+The validateQRcode uses the SECRET, HOTP and TOTP for validation
