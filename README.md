@@ -9,12 +9,12 @@ The objective of these labs was to craft a buffer overflow attack to change the 
 - Finished parts 1-4 about buffer overflows
 - Finished part 6 about double free attack
 - Have my notes which have diagrams of stack, heap, addresses, attack buffers and offsets from each other
-- To run, compile the sploit and its corresponding target in the targets folder using the 'make' command in both directories, and just do ./sploit(which part) to run the exploit code.
+- To run, compile the sploit and its corresponding target in the targets folder using the 'make' command in both directories, and just do ./sploit<which part> to run the exploit code.
 
 ## Lab 2
 Used openssl to secure	the	communication	channel	between	the	client	and	the	server. The	client	and	server	will	send messages	over	the	encrypted	channel	that is	set	up	with	SSL.
-- To run the server compile it and enter: ./server (port)
-- To run the client compile it and enter: ./client (host) (port)
+- To run the server compile it and enter: ./server <port>
+- To run the client compile it and enter: ./client <host> <port>
 
 ## Lab 3
 Generate and validate one-time passwords that are compatible with Google Authenticator. The purpose of this assignment is to be familiarized with both two-factor authentication and HMACs.
